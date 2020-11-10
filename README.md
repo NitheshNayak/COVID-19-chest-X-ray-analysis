@@ -15,6 +15,7 @@ To address the time constrains, research uses deep learning techniques to extrac
 Develop a model to classify X-ray images of the chest to detect COVID-19 positive cases by using transfer learning based on the VGG-19.
 
 # Files
+The notebook (the project group used google colab) includes all the code, including comments and explanantions.
 
 # Specifications
 
@@ -26,7 +27,7 @@ Data descritpion: The dataset contains 219 COVID-19 images, 1,345 pneumonia imag
 
 Pre-processing: down-sizing the images from 1024x1024 pixel to 224x224 pixel to minimize the processing time of the model
 
-Train-Test-Split: 33%, stratified sampling
+Train-Test-Split: 30%, stratified sampling
 
 Model Architecture: VGG-19 (frozen weights), additional layers (one functional layer, two drop out layers, three dense layers, softmax activation function in the final layer)
 
