@@ -31,3 +31,14 @@ Train-Test-Split: 30%, stratified sampling
 
 Model Architecture: VGG-19 (frozen weights), additional layers (one functional layer, two drop out layers, three dense layers, softmax activation function in the final layer)
 
+#### Library Versions: 
+            python - 3.8.5
+            cv2 - 4.0.1
+            numpy - 1.18.5
+            pandas - 1.1.1
+            matplotlib - 3.3.1
+            seaborn - 0.11.0
+            sklearn - 0.23.2
+            keras - 2.4.3
+            tensorflow - 2.3.0
+
